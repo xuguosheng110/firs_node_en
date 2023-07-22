@@ -47,3 +47,6 @@ def main(args=None):                                 # ROS2节点主入口main�
     rclpy.spin(node)                                 # 循环等待ROS2退出
     node.destroy_node()                              # 销毁节点对象
     rclpy.shutdown()                                 # 关闭ROS2 Python接口
+
+if __name__ == '__main__':
+    main()
