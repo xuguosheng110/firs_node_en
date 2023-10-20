@@ -25,28 +25,6 @@ sudo apt update
 sudo apt install -y tros-first-node
 ```
 
-## 运行first-node功能包
-
-通过MoBaXterm连接机器人，启动命令如下：
-
-```bash
-# 设置tros的环境变量
-source /opt/tros/setup.bash
-
-# 启动Turtlesim
-ros2 run turtlesim turtlesim_node
-```
-
-再另一个终端中启动firs_node
-
-```bash
-# 设置tros的环境变量
-source /opt/tros/setup.bash
-
-# 启动OriginBot
-ros2 run first_node first_node
-```
-
 ## 使用键盘控制turtlesim
 
 通过MoBaXterm连接机器人，启动命令如下：
