@@ -1,3 +1,5 @@
+简体中文 | [English](./README_en.md)
+
 # 功能介绍
 
 NodeHub快速入门示例，通过键盘控制小乌龟进行绘画。
